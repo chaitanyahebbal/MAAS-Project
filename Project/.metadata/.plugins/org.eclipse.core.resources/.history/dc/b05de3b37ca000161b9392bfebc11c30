@@ -1,0 +1,16 @@
+package behavior;
+import jade.core.behaviours.*;
+import jade.lang.acl.ACLMessage;
+
+public class Behavior1 extends CyclicBehaviour {
+	public void setup(){
+		
+	}
+	public void action() {
+		ACLMessage msg = myAgent.receive();
+		if (msg != null) {
+		// Message received. Process it
+			System.out.println(msg.getContent()+ getAgent());
+		}
+	}
+}

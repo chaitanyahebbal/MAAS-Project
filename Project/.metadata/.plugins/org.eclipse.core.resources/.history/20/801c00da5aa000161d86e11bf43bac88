@@ -1,0 +1,38 @@
+package agents;
+import behavior.Behavior1;
+import jade.core.Agent;
+import jade.core.AID;
+import jade.lang.acl.ACLMessage;
+
+public class Agent1 extends Agent {
+ AID id;
+ private String name;
+ 
+ protected void setup() {
+
+	 Object[] args = getArguments();
+
+	 if (args != null && args.length > 0) {
+		 name = (String) args[0];
+		 id = new AID(name, AID.ISLOCALNAME);
+		 System.out.println("Hello! Robot "+getAID().getName()+"is ready.");	
+	 }
+
+	 else {
+	 	 System.out.println("No name specified");
+	 	 doDelete();
+ 	 }
+	 Behavior1 behavior = new Behavior1();
+	 addBehaviour(behavior);
+ }
+ public void action() {
+
+	 ACLMessage msg;
+	
+	}
+ // Put agent clean-up operations here
+ protected void takeDown() {
+	// Printout a dismissal message
+	System.out.println("Killing" +getAID().getName());
+ }
+}

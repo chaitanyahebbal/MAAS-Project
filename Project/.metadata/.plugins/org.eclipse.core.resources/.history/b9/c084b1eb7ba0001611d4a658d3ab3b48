@@ -1,0 +1,21 @@
+package behavior;
+import jade.core.behaviours.*;
+import jade.lang.acl.ACLMessage;
+
+public class Behavior1 extends SimpleBehaviour {
+	public void setup(){
+		
+	}
+	public void action() {
+		ACLMessage msg = myAgent.receive();
+		if (msg != null) {
+		// Message received. Process it
+			System.out.println(msg.getContent()+ getAgent());
+		}
+		System.out.println("Hit "+ myAgent.getLocalName());
+		
+	}
+	public boolean done() {
+		return true;
+	}
+}

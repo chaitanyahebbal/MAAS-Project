@@ -1,0 +1,16 @@
+package agents;
+import behavior.Behavior2;
+import jade.core.Agent;
+import jade.core.AID;
+import jade.lang.acl.ACLMessage;
+import jade.util.leap.Map;
+
+public class MsgSender extends Agent{
+	Map map;
+	protected void setup(){
+		 Behavior2 behavior = new Behavior2();
+		 addBehaviour(behavior);
+		 map.put("hola", 0);
+		 //System.out.println(map.get("hola"));
+	}
+}

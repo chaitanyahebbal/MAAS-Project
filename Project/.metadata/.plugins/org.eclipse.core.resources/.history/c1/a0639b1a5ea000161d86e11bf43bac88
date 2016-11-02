@@ -1,0 +1,14 @@
+package agents;
+import jade.core.Agent;
+import jade.lang.acl.ACLMessage;
+
+public class MsgSender extends Agent{
+	protected void setup(){
+		ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
+		msg.addReceiver(new AID("Peter", AID.ISLOCALNAME));
+		msg.setLanguage("English");
+		msg.setOntology("Weather-forecast-ontology");
+		msg.setContent("Today it’s raining”);
+		send(msg);
+	}
+}
