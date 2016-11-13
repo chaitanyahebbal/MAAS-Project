@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="behavior.Behavior1"/>
 <fullyQualifiedTypeName name="jade.domain.introspection.ACLMessage"/>
@@ -17,4 +20,7 @@
 <fullyQualifiedTypeName name="jade.domain.AMSService"/>
 <fullyQualifiedTypeName name="agents.Agent1"/>
 </qualifiedTypeNameHistroy>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files

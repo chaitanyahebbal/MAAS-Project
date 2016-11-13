@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1479076374927_0" label="Window Working Set" name="Aggregate for window 1479076374925"/>
+=======
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1477644551394_0" label="Window Working Set" name="Aggregate for window 1477644551393"/>
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1477644551394_0" label="Window Working Set" name="Aggregate for window 1477644551393"/>
 >>>>>>> parent of d4b6d7d... refresh files

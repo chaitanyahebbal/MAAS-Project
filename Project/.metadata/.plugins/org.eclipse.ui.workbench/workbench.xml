@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="743" width="1018" x="65" y="24">
+=======
+<workbench progressCount="18" version="2.0">
+<workbenchAdvisor/>
+<window height="658" maximized="true" width="638" x="356" y="25">
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
@@ -17,6 +23,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="60" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="60" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -24,6 +31,8 @@
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="60" y="30"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="40" y="30"/>
@@ -37,6 +46,9 @@
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 <coolItem id="org.lejos.nxt.ldt.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -46,7 +58,11 @@
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <page aggregateWorkingSetId="Aggregate for window 1479076374925" focus="true" label="Workspace - Resource">
+=======
+<page aggregateWorkingSetId="Aggregate for window 1477644551393" focus="true" label="Workspace - Java">
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 <page aggregateWorkingSetId="Aggregate for window 1477644551393" focus="true" label="Workspace - Java">
 >>>>>>> parent of d4b6d7d... refresh files
@@ -55,11 +71,14 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -85,6 +104,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JadeTutorial/src/behavior/Behavior2.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1059" selectionTopPixel="442"/>
 </editor>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 </editors>
 <views>
@@ -92,7 +114,10 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
@@ -140,6 +165,9 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
@@ -154,12 +182,15 @@
 </viewState>
 </view>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
 <perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -167,6 +198,9 @@
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
@@ -195,7 +229,10 @@
 <new_wizard_action id="org.lejos.nxt.ldt.NewNXTProjectWizard"/>
 <new_wizard_action id="org.lejos.nxt.ldt.NewPCProjectWizard"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 >>>>>>> parent of d4b6d7d... refresh files
 <perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
@@ -204,7 +241,10 @@
 <perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 >>>>>>> parent of d4b6d7d... refresh files
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
@@ -214,6 +254,7 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <layout>
 <mainWindow>
@@ -232,6 +273,8 @@
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -241,6 +284,9 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@5900f9c5" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
@@ -249,11 +295,14 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -347,6 +396,7 @@
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<<<<<<< HEAD
 >>>>>>> parent of d4b6d7d... refresh files
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -358,12 +408,17 @@
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
 </folder>
 </info>
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
@@ -397,6 +452,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 </mainWindow>
 </layout>
@@ -404,8 +462,11 @@
 </perspectives>
 <workingSets/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <navigationHistory/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JadeTutorial/src/agents/Agent1.java"/>
@@ -515,6 +576,9 @@
 <position/>
 </item>
 </navigationHistory>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -522,6 +586,12 @@
 <actionBarAdvisor/>
 <trimLayout>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
+>>>>>>> parent of d4b6d7d... refresh files
 =======
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
@@ -538,8 +608,11 @@
 </trimLayout>
 </window>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <mruList/>
 =======
+=======
+>>>>>>> parent of d4b6d7d... refresh files
 <mruList>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Behavior2.java" tooltip="JadeTutorial/src/behavior/Behavior2.java">
 <persistable path="/JadeTutorial/src/behavior/Behavior2.java"/>
@@ -572,5 +645,8 @@
 <persistable path="/JadeTutorial/src/Agent.java"/>
 </file>
 </mruList>
+<<<<<<< HEAD
+>>>>>>> parent of d4b6d7d... refresh files
+=======
 >>>>>>> parent of d4b6d7d... refresh files
 </workbench>
