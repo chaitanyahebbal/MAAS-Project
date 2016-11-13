@@ -25,7 +25,7 @@ public class Behavior1 extends TickerBehaviour {
 }
 */
 public class Behavior1 extends CyclicBehaviour {
-
+	private int step=0;
 	public void action() {
 		ACLMessage msg = myAgent.receive();
 		if (msg != null) {
@@ -45,5 +45,29 @@ public class Behavior1 extends CyclicBehaviour {
 			//myAgent.doWait();
 			//System.out.println("waiting");
 		//}
+		switch (step) {
+		case 0:
+		// perform operation X
+		step++;
+		if (msg!=null){
+			System.out.println(msg.getPerformative());
+		}
+		break;
+		case 1:
+		// perform operation Y
+		step++;
+		if (msg!=null){
+			System.out.println(msg.getPerformative());
+		}
+		break;
+		case 2:
+		// perform operation Z			
+		step++;
+		if (msg!=null){
+			System.out.println(msg.getPerformative());
+		}
+		break;
+		}
+		
 	}
 }

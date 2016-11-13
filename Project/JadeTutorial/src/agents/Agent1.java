@@ -13,6 +13,10 @@ public class Agent1 extends Agent {
 	 //Behavior1 behavior = new Behavior1(this,500);
 	 Behavior1 behavior = new Behavior1();
 	 addBehaviour(behavior);
+	 System.out.println("Agent Local Name " + this.getLocalName());
+	 System.out.println("Agent Local Name " + this.getName());
+	 System.out.println("Agent State " + this.getState());
+	 System.out.println(this.getAgentState());
  }
 
  // Put agent clean-up operations here

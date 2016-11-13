@@ -9,4 +9,8 @@
 <fullyQualifiedTypeName name="jade.domain.FIPANames.Ontology"/>
 <fullyQualifiedTypeName name="jade.util.leap.Map"/>
 <fullyQualifiedTypeName name="jade.util.leap.HashMap"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.AMSAgentDescription"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.SearchConstraints"/>
+<fullyQualifiedTypeName name="jade.domain.AMSService"/>
+<fullyQualifiedTypeName name="agents.Agent1"/>
 </qualifiedTypeNameHistroy>
