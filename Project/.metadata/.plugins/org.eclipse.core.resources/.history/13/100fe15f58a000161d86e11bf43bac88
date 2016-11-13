@@ -1,0 +1,64 @@
+package agents;
+import behavior.Behavior1;
+import jade.core.Agent;
+import jade.core.AID;
+import jade.domain.introspection.ACLMessage;
+
+public class Agent1 extends Agent {
+ AID id;
+ private String name;
+ 
+ protected void setup() {
+
+	 Object[] args = getArguments();
+
+	 if (args != null && args.length > 0) {
+		 name = (String) args[0];
+		 id = new AID(name, AID.ISLOCALNAME);
+		 System.out.println("Hello! Robot "+getAID().getName()+"is ready.");	
+	 }
+
+	 else {
+	 	 System.out.println("No name specified");
+	 	 doDelete();
+ 	 }
+	 Behavior1 behavior = new Behavior1();
+	 addBehaviour(behavior);
+ }
+ public void action() {
+
+	 ACLMessage msg = receive();
+	
+	 if (msg == null)
+		 return;
+	 
+	 if (msg.getPerformative() == ACLMessage.NOT_UNDERSTOOD) {
+		 System.out.println("Mensaje NOT UNDERSTOOD recibido");
+		 return;
+	 }
+	
+	ACLMessage reply = msg.createReply();
+	
+	if (msg.getPerformative()== ACLMessage.QUERY_REF){
+		String content = msg.getContent();
+	}
+	
+	if ((content != null) && (content.indexOf("ping") != -1)){
+		System.out.println("Recibido mensaje QUERY-REF con contenido ping");
+		reply.setPerformative(ACLMessage.INFORM);
+		reply.setContent("pong");
+		return
+	}
+
+	System.out.println("Recibido mensaje no QUERY-REF");
+	reply.setPerformative(ACLMessage.NOT_UNDERSTOOD);
+	reply.setContent("( (Unexpected-act "+ACLMessage.getPerformative
+	(msg.getPerformative())+") ( expected (query-ref :content ping)))");
+	send(reply);
+	}
+ // Put agent clean-up operations here
+ protected void takeDown() {
+	// Printout a dismissal message
+	System.out.println("Killing" +getAID().getName());
+ }
+}

@@ -1,0 +1,16 @@
+package agents;
+import behavior.Behavior2;
+import behavior.Behavior1;
+import jade.core.Agent;
+import jade.core.AID;
+import jade.lang.acl.ACLMessage;
+
+public class MsgSender extends Agent{
+	
+	protected void setup(){
+		 Behavior1 behavior1 = new Behavior1();
+		 addBehaviour(behavior1);
+		 Behavior2 behavior = new Behavior2();
+		 addBehaviour(behavior);
+	}
+}

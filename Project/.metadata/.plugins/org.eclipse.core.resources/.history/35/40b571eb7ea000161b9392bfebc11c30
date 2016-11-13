@@ -1,0 +1,21 @@
+package behavior;
+
+import jade.core.AID;
+import jade.core.behaviours.*;
+import jade.lang.acl.ACLMessage;
+
+	public class Behavior2 extends CyclicBehaviour {
+		private AID[] agents = {new AID("Jose", AID.ISLOCALNAME),
+				  				new AID("Chaitanya", AID.ISLOCALNAME)};		
+		public void action() {
+			ACLMessage msg = new ACLMessage(ACLMessage.REQUEST);
+			msg.addReceiver(agents[0]);
+			msg.setLanguage("English");
+			msg.setOntology("Weather-forecast-");
+			msg.setContent("Today it’s raining");
+			myAgent.send(msg);
+			System.out.println("Message Send");
+			
+		}
+	}
+

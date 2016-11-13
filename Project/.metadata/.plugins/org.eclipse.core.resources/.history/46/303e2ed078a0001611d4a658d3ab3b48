@@ -1,0 +1,55 @@
+package agents;
+import behavior.Behavior1;
+import jade.core.Agent;
+import jade.core.AID;
+import jade.core.behaviours.WakerBehaviour;
+import jade.core.behaviours.TickerBehaviour;
+import jade.lang.acl.ACLMessage;
+
+public class Agent1 extends Agent {
+ AID id;
+ private String name;
+ 
+ protected void setup() {
+
+	 Object[] args = getArguments();
+
+	 if (args != null && args.length > 0) {
+		 name = (String) args[0];
+		 id = new AID(name, AID.ISLOCALNAME);
+		 System.out.println("Hello! Robot "+getAID().getName()+"is ready.");	
+	 }
+
+	 else {
+	 	 System.out.println("No name specified");
+	 	 doDelete();
+ 	 }
+	 Behavior1 behavior = new Behavior1();
+	 addBehaviour(behavior);
+	 addBehaviour(new WakerBehaviour(this, 10000){
+		 protected void handleElapsedTimeout() {
+			 System.out.println("Waiting");
+		}
+	 });
+	 addBehaviour(new TickerBehaviour(this, 10000) {
+		 protected void onTick() {
+		 // perform operation Y
+		 }
+		 } );
+ }
+ public void action() {
+	 ACLMessage msg = receive();
+	 if (msg != null) {
+		System.out.println(msg.getContent()+ getLocalName());
+	 }
+	 else {
+		 doWake();
+	 }
+		
+ }
+ // Put agent clean-up operations here
+ protected void takeDown() {
+	// Printout a dismissal message
+	System.out.println("Killing" +getAID().getName());
+ }
+}

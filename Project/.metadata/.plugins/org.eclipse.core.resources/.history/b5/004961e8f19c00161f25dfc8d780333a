@@ -1,0 +1,12 @@
+package agents;
+
+import jade.core.Agent;
+import jade.core.AID;
+
+public class Agent1 extends Agent {
+ AID id = new AID("robot1", AID.ISLOCALNAME);
+ protected void setup() {
+ // Printout a welcome message	 
+ System.out.println("Hello! Agent"+getAID().getName()+"is ready.");
+ }
+}

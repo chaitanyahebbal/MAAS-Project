@@ -1,0 +1,42 @@
+Agents:
+
+Order.
+Management.
+Stock.
+Deliver.
+Robot.
+Stock.
+
+
+Communications.
+
+What:
+Order-> Management: Order (quantities and time stamp).
+Management -> Order: For each order (on process, waiting, not it stock).
+Management -> Management: (Stock states).
+Management -> Robot: (Orders).
+Robot -> Management: (Robot State (pose, action, order)).
+Robot -> Stock: (in postion true-false)
+Stock -> Robot: (object in robot)
+Robot -> Robot. (state).
+Robot -> Deliver: (in postion true-false)
+Deliver -> Robot: (order correct, false what is left).
+Deliver -> Deliver : (listener  RT)
+Deliver - Management: (received orders)
+
+
+When:
+Order-> Management: When order arrives.
+Management -> Order: RT which is the state of order.
+Management -> Management: RT Listening.
+Management -> Robot: Set order to robots.
+Robot -> Management: RT.
+Robot -> Stock: When one robot arrives.
+Stock -> Robot: Complete.
+Robot -> Robot. RT.
+Robot -> Deliver: When one robot arrives.
+Deliver -> Robot: Complete.
+Deliver -> Deliver : RT waiting
+Deliver - Management: Receive Order
+
+

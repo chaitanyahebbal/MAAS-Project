@@ -1,0 +1,12 @@
+
+public class Behavior1 {
+
+}
+
+lass WaitPingAndReplyBehaviour extends SimpleBehaviour {
+…
+public void action() {
+ … }
+public boolean done() {
+return finished;
+ }

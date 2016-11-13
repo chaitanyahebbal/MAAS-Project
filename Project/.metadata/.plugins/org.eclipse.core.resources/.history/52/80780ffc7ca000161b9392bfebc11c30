@@ -1,0 +1,18 @@
+package behavior;
+
+import jade.core.behaviours.*;
+import jade.lang.acl.ACLMessage;
+
+	public class Behavior2 extends CyclicBehaviour {
+		
+		public void action() {
+			ACLMessage msg = new ACLMessage(ACLMessage.REQUEST);
+			msg.addReceiver(agents[0]);
+			msg.setLanguage("English");
+			msg.setOntology("Weather-forecast-ontology");
+			msg.setContent("Today it’s raining");
+			System.out.println("Message Send");
+			
+		}
+	}
+

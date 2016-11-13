@@ -1,0 +1,8 @@
+import jade.core.Agent;
+
+public class AgentTutorial extends Agent {
+ protected void setup() {
+ // Printout a welcome message
+ System.out.println(“Hello! Agent “+getAID().getName()+” is ready.”);
+ }
+}
