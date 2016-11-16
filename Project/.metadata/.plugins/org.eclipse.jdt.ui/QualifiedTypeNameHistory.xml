@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<qualifiedTypeNameHistroy/>
-=======
-=======
->>>>>>> parent of d4b6d7d... refresh files
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="behavior.Behavior1"/>
-<fullyQualifiedTypeName name="jade.domain.introspection.ACLMessage"/>
-<fullyQualifiedTypeName name="jade.core.behaviours.WakerBehaviour"/>
-<fullyQualifiedTypeName name="jade.core.behaviours.TickerBehaviour"/>
-<fullyQualifiedTypeName name="jade.lang.acl.ACLMessage"/>
-<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.FIPAManagementOntology"/>
-<fullyQualifiedTypeName name="jade.domain.FIPANames.Ontology"/>
-<fullyQualifiedTypeName name="jade.util.leap.Map"/>
-<fullyQualifiedTypeName name="jade.util.leap.HashMap"/>
 <fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.AMSAgentDescription"/>
-<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.SearchConstraints"/>
-<fullyQualifiedTypeName name="jade.domain.AMSService"/>
 <fullyQualifiedTypeName name="agents.Agent1"/>
+<fullyQualifiedTypeName name="behavior.Behavior1"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.DFAgentDescription"/>
+<fullyQualifiedTypeName name="jade.domain.DFService"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.ServiceDescription"/>
 </qualifiedTypeNameHistroy>
-<<<<<<< HEAD
->>>>>>> parent of d4b6d7d... refresh files
-=======
->>>>>>> parent of d4b6d7d... refresh files
