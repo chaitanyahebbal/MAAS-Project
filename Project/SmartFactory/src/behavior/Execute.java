@@ -1,8 +1,6 @@
 package behavior;
 import jade.core.behaviours.*;
-import jade.domain.FIPANames.Ontology;
 import jade.lang.acl.ACLMessage;
-import jade.core.Agent;
 /*
 public class Behavior1 extends TickerBehaviour {
 
@@ -27,6 +25,7 @@ public class Behavior1 extends TickerBehaviour {
 public class Execute extends CyclicBehaviour {
 	
 	private int step=0;
+
 	public void action() {
 		ACLMessage msg = myAgent.receive();
 		if (msg != null) {
@@ -41,11 +40,8 @@ public class Execute extends CyclicBehaviour {
 			//System.out.println(myAgent.getLocalName()+" sends message");
 			//reply.setSender(s)
 		}	
-		//else{
-			//block();
-			//myAgent.doWait();
-			//System.out.println("waiting");
-		//}
+
+		
 		switch (step) {
 		case 0:
 		// perform operation X
