@@ -1,3 +1,10 @@
 eclipse.preferences.version=1
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
-preferredTargets=default\:default|
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+preferredTargets=default\:default|org.eclipse.cdt.debug.ui.toggleCBreakpointTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|
+>>>>>>> parent of d4b6d7d... refresh files
+=======
+preferredTargets=default\:default|org.eclipse.cdt.debug.ui.toggleCBreakpointTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|
+>>>>>>> parent of d4b6d7d... refresh files
